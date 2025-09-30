@@ -181,7 +181,7 @@ def main():
 
         screen.blit(bb_img, bb_rct)
 
-        
+    
         if kk_rct.colliderect(bb_rct):
             gameover(screen)
             return
